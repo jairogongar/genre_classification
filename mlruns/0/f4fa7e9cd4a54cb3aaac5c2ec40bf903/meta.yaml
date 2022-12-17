@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jairo/E%3A/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/f4fa7e9cd4a54cb3aaac5c2ec40bf903/artifacts
+end_time: 1671278097920
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4fa7e9cd4a54cb3aaac5c2ec40bf903
+run_name: auspicious-hen-36
+run_uuid: f4fa7e9cd4a54cb3aaac5c2ec40bf903
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671278096241
+status: 4
+tags: []
+user_id: jairo

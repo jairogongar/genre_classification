@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jairo/E%3A/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/0eeb637152b447e6814c53cd3046b99b/artifacts
+end_time: 1671278378880
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0eeb637152b447e6814c53cd3046b99b
+run_name: rebellious-bat-430
+run_uuid: 0eeb637152b447e6814c53cd3046b99b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671278170504
+status: 3
+tags: []
+user_id: jairo

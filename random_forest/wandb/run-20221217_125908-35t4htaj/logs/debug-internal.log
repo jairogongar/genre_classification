@@ -1,0 +1,182 @@
+2022-12-17 12:59:09,053 INFO    MainThread:4601 [internal.py:wandb_internal():90] W&B internal server running at pid: 4601, started at: 2022-12-17 12:59:09.052742
+2022-12-17 12:59:09,055 DEBUG   SenderThread:4601 [sender.py:send():232] send: header
+2022-12-17 12:59:09,055 INFO    WriterThread:4601 [datastore.py:open_for_write():75] open: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/run-35t4htaj.wandb
+2022-12-17 12:59:09,056 DEBUG   SenderThread:4601 [sender.py:send():232] send: run
+2022-12-17 12:59:09,335 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: check_version
+2022-12-17 12:59:09,338 INFO    SenderThread:4601 [dir_watcher.py:__init__():197] watching files in: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files
+2022-12-17 12:59:09,338 INFO    SenderThread:4601 [sender.py:_start_run_threads():811] run started: 35t4htaj with start time 1671278348
+2022-12-17 12:59:09,338 DEBUG   SenderThread:4601 [sender.py:send():232] send: summary
+2022-12-17 12:59:09,338 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-12-17 12:59:09,339 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: check_version
+2022-12-17 12:59:09,429 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: run_start
+2022-12-17 12:59:09,484 DEBUG   HandlerThread:4601 [meta.py:__init__():35] meta init
+2022-12-17 12:59:09,484 DEBUG   HandlerThread:4601 [meta.py:__init__():49] meta init done
+2022-12-17 12:59:09,484 DEBUG   HandlerThread:4601 [meta.py:probe():209] probe
+2022-12-17 12:59:09,535 DEBUG   HandlerThread:4601 [meta.py:_setup_git():199] setup git
+2022-12-17 12:59:09,542 DEBUG   HandlerThread:4601 [meta.py:_setup_git():206] setup git done
+2022-12-17 12:59:09,542 DEBUG   HandlerThread:4601 [meta.py:_save_pip():53] save pip
+2022-12-17 12:59:09,542 DEBUG   HandlerThread:4601 [meta.py:_save_pip():67] save pip done
+2022-12-17 12:59:09,542 DEBUG   HandlerThread:4601 [meta.py:_save_conda():74] save conda
+2022-12-17 12:59:10,340 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/conda-environment.yaml
+2022-12-17 12:59:10,340 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/requirements.txt
+2022-12-17 12:59:10,340 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-summary.json
+2022-12-17 12:59:10,370 DEBUG   HandlerThread:4601 [meta.py:_save_conda():84] save conda done
+2022-12-17 12:59:10,370 DEBUG   HandlerThread:4601 [meta.py:probe():247] probe done
+2022-12-17 12:59:10,373 DEBUG   SenderThread:4601 [sender.py:send():232] send: files
+2022-12-17 12:59:10,373 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-12-17 12:59:10,379 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-17 12:59:10,379 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: stop_status
+2022-12-17 12:59:10,562 DEBUG   SenderThread:4601 [sender.py:send():232] send: telemetry
+2022-12-17 12:59:10,904 INFO    Thread-11 :4601 [upload_job.py:push():132] Uploaded file /tmp/tmpmutabpe4wandb/kaklfon7-wandb-metadata.json
+2022-12-17 12:59:11,339 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-metadata.json
+2022-12-17 12:59:11,339 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/output.log
+2022-12-17 12:59:11,475 DEBUG   SenderThread:4601 [sender.py:send():232] send: config
+2022-12-17 12:59:13,339 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/output.log
+2022-12-17 12:59:14,087 DEBUG   SenderThread:4601 [sender.py:send():232] send: summary
+2022-12-17 12:59:14,087 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-12-17 12:59:14,335 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-17 12:59:14,336 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: log_artifact
+2022-12-17 12:59:14,341 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-summary.json
+2022-12-17 12:59:15,480 INFO    Thread-14 :4601 [upload_job.py:push():87] Skipped uploading /home/jairo/.cache/wandb/artifacts/obj/md5/51/ef02e5be8878d8396b2645dfc47807
+2022-12-17 12:59:15,481 INFO    Thread-15 :4601 [upload_job.py:push():87] Skipped uploading /home/jairo/.cache/wandb/artifacts/obj/md5/99/0b827317c239cce1734f4caa28ec12
+2022-12-17 12:59:15,838 INFO    Thread-13 :4601 [upload_job.py:push():90] Uploaded file /home/jairo/.cache/wandb/artifacts/obj/md5/03/74c64d694b639f6e7733dd9146df8f
+2022-12-17 12:59:16,332 INFO    Thread-16 :4601 [upload_job.py:push():90] Uploaded file /home/jairo/.cache/wandb/artifacts/obj/md5/20/b6aa38d5c20c9779f1f61c0112f5b3
+2022-12-17 12:59:17,343 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/output.log
+2022-12-17 12:59:18,399 INFO    SenderThread:4601 [sender.py:send_request_log_artifact():1005] logged artifact model_export - {'id': 'QXJ0aWZhY3Q6Mjk5MzQyNjEx', 'digest': '69ede7a28ed6a8e43f4b003cab070cb4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjczNjUx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk5MzMyNTc4', 'versionIndex': 1}}, 'version': 'latest'}
+2022-12-17 12:59:19,920 DEBUG   SenderThread:4601 [sender.py:send():232] send: files
+2022-12-17 12:59:19,920 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file media/images/feature_importance_0_f1fd3194294f7a484f72.png with policy now
+2022-12-17 12:59:19,927 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: partial_history
+2022-12-17 12:59:19,928 DEBUG   SenderThread:4601 [sender.py:send():232] send: files
+2022-12-17 12:59:19,929 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png with policy now
+2022-12-17 12:59:19,929 DEBUG   SenderThread:4601 [sender.py:send():232] send: history
+2022-12-17 12:59:19,929 DEBUG   SenderThread:4601 [sender.py:send():232] send: summary
+2022-12-17 12:59:19,930 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-12-17 12:59:19,931 DEBUG   SenderThread:4601 [sender.py:send():232] send: telemetry
+2022-12-17 12:59:20,344 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-summary.json
+2022-12-17 12:59:20,344 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-12-17 12:59:20,344 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-12-17 12:59:20,345 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/media
+2022-12-17 12:59:20,345 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_created():244] file/dir created: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/media/images
+2022-12-17 12:59:20,491 INFO    Thread-18 :4601 [upload_job.py:push():132] Uploaded file /tmp/tmpmutabpe4wandb/1ktetweo-media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-12-17 12:59:20,521 INFO    Thread-17 :4601 [upload_job.py:push():132] Uploaded file /tmp/tmpmutabpe4wandb/3oe48g07-media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-12-17 12:59:21,933 DEBUG   SenderThread:4601 [sender.py:send():232] send: exit
+2022-12-17 12:59:21,933 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:21,933 INFO    SenderThread:4601 [sender.py:send_exit():368] handling exit code: 0
+2022-12-17 12:59:21,934 INFO    SenderThread:4601 [sender.py:send_exit():370] handling runtime: 12
+2022-12-17 12:59:21,934 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-12-17 12:59:21,934 INFO    SenderThread:4601 [sender.py:send_exit():376] send defer
+2022-12-17 12:59:21,935 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:21,935 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:21,935 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 0
+2022-12-17 12:59:21,936 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:21,936 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-12-17 12:59:21,936 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 1
+2022-12-17 12:59:21,936 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:21,937 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 1
+2022-12-17 12:59:22,033 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,033 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-12-17 12:59:22,033 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 2
+2022-12-17 12:59:22,034 DEBUG   SenderThread:4601 [sender.py:send():232] send: stats
+2022-12-17 12:59:22,034 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:22,034 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 2
+2022-12-17 12:59:22,035 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,035 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-12-17 12:59:22,035 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 3
+2022-12-17 12:59:22,035 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:22,035 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 3
+2022-12-17 12:59:22,035 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,035 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-12-17 12:59:22,035 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 4
+2022-12-17 12:59:22,035 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:22,036 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 4
+2022-12-17 12:59:22,036 DEBUG   SenderThread:4601 [sender.py:send():232] send: summary
+2022-12-17 12:59:22,037 INFO    SenderThread:4601 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-12-17 12:59:22,037 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,037 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-12-17 12:59:22,037 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 5
+2022-12-17 12:59:22,037 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,037 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:22,037 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 5
+2022-12-17 12:59:22,037 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,038 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,038 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-12-17 12:59:22,141 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,234 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 6
+2022-12-17 12:59:22,235 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,235 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:22,235 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 6
+2022-12-17 12:59:22,235 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,235 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-12-17 12:59:22,235 INFO    SenderThread:4601 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-12-17 12:59:22,336 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,345 INFO    Thread-7  :4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-summary.json
+2022-12-17 12:59:22,345 INFO    SenderThread:4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/config.yaml
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/output.log
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:finish():342] scan: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/output.log output.log
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/conda-environment.yaml conda-environment.yaml
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/config.yaml config.yaml
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-metadata.json wandb-metadata.json
+2022-12-17 12:59:22,346 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/requirements.txt requirements.txt
+2022-12-17 12:59:22,353 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-summary.json wandb-summary.json
+2022-12-17 12:59:22,353 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-12-17 12:59:22,353 INFO    SenderThread:4601 [dir_watcher.py:finish():356] scan save: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/media/images/feature_importance_0_f1fd3194294f7a484f72.png media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-12-17 12:59:22,353 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 7
+2022-12-17 12:59:22,354 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,354 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:22,354 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 7
+2022-12-17 12:59:22,355 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:22,355 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-12-17 12:59:22,355 INFO    SenderThread:4601 [file_pusher.py:finish():145] shutting down file pusher
+2022-12-17 12:59:22,456 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,456 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,557 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,558 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,659 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,659 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,761 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,761 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,862 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,862 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:22,964 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:22,964 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:23,022 INFO    Thread-23 :4601 [upload_job.py:push():132] Uploaded file /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/wandb-summary.json
+2022-12-17 12:59:23,050 INFO    Thread-19 :4601 [upload_job.py:push():132] Uploaded file /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/output.log
+2022-12-17 12:59:23,060 INFO    Thread-20 :4601 [upload_job.py:push():132] Uploaded file /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/conda-environment.yaml
+2022-12-17 12:59:23,066 INFO    Thread-21 :4601 [upload_job.py:push():132] Uploaded file /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/config.yaml
+2022-12-17 12:59:23,069 INFO    Thread-22 :4601 [upload_job.py:push():132] Uploaded file /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/files/requirements.txt
+2022-12-17 12:59:23,070 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:23,071 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:23,173 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:23,173 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:23,271 INFO    Thread-6  :4601 [sender.py:transition_state():389] send defer: 8
+2022-12-17 12:59:23,272 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:23,272 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 8
+2022-12-17 12:59:23,272 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:23,272 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-12-17 12:59:23,275 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:23,478 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 9
+2022-12-17 12:59:23,478 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:23,480 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:23,480 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 9
+2022-12-17 12:59:23,480 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:23,480 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-12-17 12:59:23,481 INFO    SenderThread:4601 [sender.py:transition_state():389] send defer: 10
+2022-12-17 12:59:23,482 DEBUG   SenderThread:4601 [sender.py:send():232] send: final
+2022-12-17 12:59:23,483 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: defer
+2022-12-17 12:59:23,483 INFO    HandlerThread:4601 [handler.py:handle_request_defer():164] handle defer: 10
+2022-12-17 12:59:23,484 DEBUG   SenderThread:4601 [sender.py:send():232] send: footer
+2022-12-17 12:59:23,484 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: defer
+2022-12-17 12:59:23,484 INFO    SenderThread:4601 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-12-17 12:59:23,581 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-17 12:59:23,581 DEBUG   SenderThread:4601 [sender.py:send_request():246] send_request: poll_exit
+2022-12-17 12:59:23,582 INFO    SenderThread:4601 [file_pusher.py:join():150] waiting for file pusher
+2022-12-17 12:59:23,860 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: sampled_history
+2022-12-17 12:59:23,861 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: get_summary
+2022-12-17 12:59:23,861 DEBUG   HandlerThread:4601 [handler.py:handle_request():141] handle_request: shutdown
+2022-12-17 12:59:23,862 INFO    HandlerThread:4601 [handler.py:finish():806] shutting down handler
+2022-12-17 12:59:24,483 INFO    WriterThread:4601 [datastore.py:close():279] close: /home/jairo/E:/ML_production_project/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/wandb/run-20221217_125908-35t4htaj/run-35t4htaj.wandb
+2022-12-17 12:59:24,759 INFO    SenderThread:4601 [sender.py:finish():1110] shutting down sender
+2022-12-17 12:59:24,759 INFO    SenderThread:4601 [file_pusher.py:finish():145] shutting down file pusher
+2022-12-17 12:59:24,759 INFO    SenderThread:4601 [file_pusher.py:join():150] waiting for file pusher
+2022-12-17 12:59:24,761 INFO    MainThread:4601 [internal.py:handle_exit():80] Internal process exited
